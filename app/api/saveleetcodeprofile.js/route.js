@@ -1,6 +1,6 @@
 import { connectToDB } from "../../../utils/database";
 import User from "@/models/user";
-
+//leetcode profile data
 export async function POST(request) {
   await connectToDB();
 

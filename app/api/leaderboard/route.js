@@ -1,7 +1,7 @@
 import Profile from "@/models/profile";
 import { connectToDB } from "@/utils/database";
 import { NextResponse } from "next/server";
-
+//sorted by created by
 export async function POST() {
   try {
     await connectToDB();

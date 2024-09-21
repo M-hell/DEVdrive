@@ -1,4 +1,4 @@
-// pages/api/login.js
+// pages/api/login.js import { loginUser } from "../umsinfo"; // Import
 import { loginUser } from "../umsinfo"; // Import server-side logic
 
 import { NextResponse } from "next/server"; // Import NextResponse

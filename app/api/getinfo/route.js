@@ -1,6 +1,6 @@
 import { connectToDB } from "../../../utils/database";
 import User from "../../../models/user";
-
+//info changed
 export async function GET(request) {
   try {
     await connectToDB();

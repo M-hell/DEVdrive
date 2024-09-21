@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useAuthContext } from "../context/Authcontext";
 import toast from "react-hot-toast";
-
+//error fixed logout now working
 const uselogout = () => {
   const [Loading, setLoading] = useState(false);
   const { setAuthuser } = useAuthContext();
